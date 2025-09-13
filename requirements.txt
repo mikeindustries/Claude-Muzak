@@ -1,0 +1,12 @@
+# Claude Muzak has no external dependencies!
+# Everything needed is included in Python's standard library:
+# - subprocess (for running afplay)
+# - pathlib (for file paths)
+# - threading (for keyboard handling)
+# - termios, tty, select (for raw keyboard input on Unix/macOS)
+# - json (for hook communication)
+# - signal, os, sys, random (standard utilities)
+
+# System requirements:
+# - macOS (for afplay audio playback)
+# - Python 3.6+ (for pathlib and f-strings)
