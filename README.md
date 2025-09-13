@@ -10,45 +10,6 @@ Elevator music for your Claude Code tasks! Automatically plays background music 
 - 🖥️ **Cross-platform support** (macOS with `afplay`)
 - 🎯 **Zero dependencies** beyond Python standard library
 
-## 🚀 Quick Start
-
-### 1. Clone and Setup
-```bash
-git clone https://github.com/yourusername/claude-muzak.git
-cd claude-muzak
-mkdir muzakfiles
-```
-
-### 2. Add Your Music
-Copy your favorite background music files to the `muzakfiles/` directory:
-```bash
-cp ~/Music/*.mp3 muzakfiles/
-cp ~/Music/*.m4a muzakfiles/
-# Any audio format: MP3, M4A, WAV, AAC, FLAC, OGG
-```
-
-### 3. Test It Out
-```bash
-python3 claude_muzak.py start
-# Press ESC, Q, or Ctrl+C to stop
-```
-
-## 📖 Usage
-
-### Interactive Mode
-```bash
-python3 claude_muzak.py start    # Start music (press ESC/Q to stop)
-python3 claude_muzak.py stop     # Stop music manually
-```
-
-### Run Commands with Music
-Perfect for long-running tasks:
-```bash
-python3 claude_muzak.py run "npm test"
-python3 claude_muzak.py run "make build"
-python3 claude_muzak.py run "pytest"
-```
-
 ### Automatic Integration with Claude Code
 For automatic music during all Claude Code sessions:
 
